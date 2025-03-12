@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { About } from "../styles";
 import styled from "styled-components";
 import Toggle from "./Toggle";
@@ -7,7 +7,6 @@ import { useScroll } from "./UseScroll";
 import { fade } from "../animation";
 
 const FAQSection = () => {
-  const [faqToggle, setFaqToggle] = useState(false);
   const [ref, controls] = useScroll();
   return (
     <Faq variants={fade} ref={ref} animate={controls} initial="hidden">

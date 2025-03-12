@@ -1,4 +1,4 @@
-import { easeInOut, easeOut, stagger } from "framer-motion";
+import { easeOut } from "framer-motion";
 
 export const pageAnimation = {
   hidden: {
